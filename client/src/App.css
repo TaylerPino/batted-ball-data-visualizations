@@ -1,0 +1,40 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background-colour{
+  background-color: #134a8e;
+}
+
+.player-name{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.filter-title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.chart-container {
+  height: 800px;
+  width: 800px;
+}
+
+.player-container{
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: grey;
+}
+
+.filter-buttons{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
